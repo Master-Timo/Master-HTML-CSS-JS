@@ -1,0 +1,54 @@
+/*pseudo-elements */
+/*::before and ::after*/
+body{
+    font-size: 30px;
+}
+.boss::before{
+    content:"hello";
+    display: block;
+    background: black;
+    font-weight: bold;
+    font-size: 4rem;
+    color: blueviolet;
+}
+.boss::after{
+    content:"world";
+    display: block;
+    background: black;
+    font-weight: bold;
+    font-size: 4rem;
+    color: blueviolet;
+}
+.a2::first-line {
+    background: #6511f1;
+    color: rgb(247, 168, 51);
+    letter-spacing: 2rem;
+}
+
+.a1::first-letter {
+    
+    color: rgb(23, 228, 235);
+    background: rgb(17, 6, 170);
+}
+p::first-letter {
+    font-size: 5rem;
+    padding-right: 2rem;
+}
+
+.a3::first-letter{
+    color:rgba(121,12,22,1);
+    font-size: 12rem;
+    border:5px double goldenrod;
+    padding:2rem;
+    background: cyan;
+}
+.a3::first-line{
+color: blueviolet;
+font-variant: -caps;
+background: coral;
+}
+
+::selection{
+color:olive;
+text-shadow: 2px 2px 5px black;
+}

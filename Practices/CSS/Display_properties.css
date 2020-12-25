@@ -1,0 +1,86 @@
+/*Border-Boxing*/
+.box-1,
+.box-2,
+.box-3 {
+  height: 200px;
+  width: 200px;
+  color: antiquewhite;
+  text-align: center;
+}
+.box-1 {
+  background: red;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.box-2 {
+  background: cyan;
+  color: brown;
+  margin: 0 0 20px 0;
+}
+.box-3 {
+  background: blue;
+  padding: 20px;
+}
+/*
+  display:none
+  opacity:0 (min=0 ; max=1)
+  visibility:hidden
+  */
+
+.Part-2 {
+  background: rgb(17, 2, 44);
+  margin: 20px 0 20px;
+  color: whitesmoke;
+  text-align: center;
+}
+.none {
+  display: none;
+}
+.opacity-0-point-1 {
+  opacity: 0.1;
+}
+.opacity-zero-point-25 {
+  opacity: 0.25;
+}
+.opacity-zero-point-50 {
+  opacity: 0.5;
+}
+.opacity-zero-point-75 {
+  opacity: 0.75;
+}
+.Visibility-yes {
+  visibility: visible;
+}
+.Visibility-no {
+  visibility: hidden;
+}
+
+/*Background Images*/
+.image {
+  height: 700px;
+  
+  color: blueviolet;
+}
+.big-img {
+  background: url(C:/Users/ATRIMOY/Desktop/grim-reaper.jpg);
+  background-repeat: round;
+  background-size: contain;
+  
+}
+.small-img{
+  background: url(C:/Users/ATRIMOY/Desktop/my-passport-photo__1581237156_103.251.80.175.jpg);
+  background-repeat:no-repeat;
+  background-repeat: space;
+  background-position: 12% 55%; /*manual overriding position */
+}
+/*background-attachment*/
+.big-img{
+  min-height: 100vh ;
+  color: blueviolet;
+  font-size:60px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}

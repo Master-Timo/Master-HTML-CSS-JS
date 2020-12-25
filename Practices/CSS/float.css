@@ -1,0 +1,63 @@
+img{
+    max-width: 30%;
+    float: right;
+}
+.banner{
+    border: 5px solid blueviolet;
+    padding: 10px;
+}
+p{
+    clear: right;   /*when float of image is left.. clear is going to be left n vice versa*/
+}
+/*Example 2*/
+.eg2{
+    float: left;
+    height: 200px;
+    width: 33.33%;
+}
+.one{
+background: red;
+}
+.two{
+    background: green;
+}
+.three{
+    background: blue;
+}
+
+/*Example 3*/
+
+.eg3{
+    border: 3px solid royalblue;
+    background: cyan;
+    margin-top: 40px;
+    position: static;
+    overflow: hidden;
+}
+.eg3_one{
+    background: rosybrown;
+    
+    top: 50px;
+    left: 20rem;
+    right: 50%;
+}
+.eg3_two{
+    background: goldenrod;
+    position: relative;
+}
+.special{
+    background: lightcoral;
+    font-size: 20px;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+button{
+    background: rgba(154,113,151,0.4);
+    font-size: 40px;
+    color: aliceblue;
+    position: fixed; 
+    top: 0;
+    right: 0;
+}

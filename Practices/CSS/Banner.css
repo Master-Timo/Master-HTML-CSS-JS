@@ -1,0 +1,24 @@
+*{
+margin :0;
+padding: 0;
+box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color: orange;
+}
+.banner{
+    background: url("C:/Users/ATRIMOY/Desktop/HTML-CSS-Assignment/intro-bg_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header{
+background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("C:/Users/ATRIMOY/Desktop/HTML-CSS-Assignment/intro-bg_1.jpg") center/cover fixed no-repeat;
+}

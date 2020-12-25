@@ -1,0 +1,41 @@
+body{
+    background: yellowgreen;
+}
+.banner{
+    background: blueviolet;
+}
+
+h1{
+    color: beige;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+/*Screen Sizes*/
+@media screen and (min-width: 576px)
+{
+    body{
+        background: red;
+    }
+    h1{
+        background: plum;
+    color: blue;
+    text-align: center;
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+}
+@media screen and (min-width: 900px)
+{
+    body{
+        background: rgb(23, 137, 230);
+    }
+    h1{
+        display: inline-block;
+        background: rgb(243, 80, 15);
+    color: rgb(151, 12, 58);
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+}
